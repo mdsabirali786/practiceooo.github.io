@@ -1,0 +1,511 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;
+    background-color: black;
+
+}
+
+.menu {
+    display: none;
+}
+
+li, a, button {
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color:white;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 10%;
+}
+.Logo {
+    cursor: pointer;
+}
+
+.nav_Link {
+    list-style: none;
+
+}
+
+ 
+.nav_Link li {
+    display: inline-block;
+    padding: 0px 30px;
+}
+.nav_Link li a {
+    transition: all 0.3s ease 0s;  
+}
+
+
+
+.nav_Link li a:hover {
+    color: grey;
+}
+button {
+    padding: 23px 46px;
+    align-items: center;
+    border-radius: 47px;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+.Content {
+    display: flex;
+    flex-direction: column;
+    transform:translateY(20%);
+    justify-content: center;
+    align-items: center;
+    padding: 0px 200px 0px;
+
+    
+}
+.Content h1 {
+    text-align: center;
+    font-size: 56px;
+    color: white;
+    margin: 56px 0px;
+    font-weight: 600;
+    line-height: 140%;
+}
+.btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px;
+    border-color: black;
+    
+}
+
+.button1:hover {
+    transition: all 0.3s ease 0s;
+    background-color: #191919;
+    color: white;
+    border: 2px;
+    border-color: white;
+}
+
+.play {
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 36px;
+}
+
+.play a {
+    font-weight: 500;
+    color: white;
+}
+
+
+
+.work {
+    border-left: 5px white;
+    height: fit-content;
+
+}
+h2{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    justify-content: center;
+    text-align: center;
+    padding: 36px;
+    padding-top: 100px;
+    
+}
+
+.creatives {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+    margin-top: 200px;
+
+}
+h4 {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    justify-content: center;
+    text-align: center;
+   padding: 36px;
+}
+
+.creative1 {
+    margin: 10px;
+    justify-content: space-around;
+    border-radius: 16px;
+}
+
+.creative2 {
+    margin: 10px;
+    justify-content: space-around;
+    border-radius: 16px;
+
+}
+
+.creative3 {
+    margin: 10px;
+    border-radius: 16px;
+}
+
+.creative5 {
+    margin: 10px;
+    border-radius: 16px;
+}
+
+.creative4 {
+    margin: 10px;
+    border-radius: 16px;
+}
+
+.button2 {
+    background-color: #191919;
+    color: white;
+    border: 2px;
+    border-color: white;
+    margin: 36px;
+
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    
+    
+}
+
+.product {
+   display: flex;
+   flex-direction: column;
+   width: 350px;
+   height: 425px;
+   margin: 36px;
+   align-items: left;
+   background-color: #191919;
+   padding: 36px;
+   border-radius: 16px;
+}
+
+.brandimg {
+    height: 96px;
+    width: 96px;
+    border-radius: 100%;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 36px;
+    
+}
+.branding {
+   margin: 17px;
+}
+
+.product h3, p {
+    background-color: #191919;
+    color: white;
+    padding: 3px;
+}
+
+.product ul {
+    background-color: #191919;
+    color: white;
+}
+
+.product ul li {
+    background-color: #191919;
+    color: white;
+}
+
+.product, h3 p ul li{
+    margin: 3px 0px ;
+    color: white;
+    background-color:none;
+    font-weight: 600;
+    
+
+}
+
+
+.product,ul ,li {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    background-color: none;
+    font-weight: 600;
+}
+
+.button3 {
+    transition: all 0.3s ease 0s;
+    color: white;
+    cursor: pointer;
+    border: 2px;
+    border-color: white;
+    justify-content: center;
+    background-color: #191919;
+    margin: 16px;
+    margin-left: 48px;
+    
+}
+.button3:hover {
+    background-color: #191919;
+    color: black;
+    cursor: pointer;
+
+}
+.aboutus {
+    display: flex;
+    justify-content: space-around;
+    padding: 36px;
+    padding-left: 240px;
+    padding-right: 240px;
+    align-items: center;
+}
+.aboutus span {
+    color: white;
+    padding: 36px;
+    font-size: 24px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    height: 152px;
+    margin-top: 72px;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+}
+
+.copyright h1 {
+    color: black;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.copyright a {
+    background-color: white;
+}
+
+.copyright a img {
+    background-color: white;
+    margin-right:16px;
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    border: 2px;
+    border-color: black;
+    background-color: white;
+    
+}
+.email a {
+    background-color: white;
+    color: black;
+    margin-left: 16px;
+}
+
+.email img {
+    background-color: white;
+    justify-content: space-around;
+}
+
+.social {
+    background-color: white;
+    justify-content: space-around;
+}
+
+.social a {
+    background: none;
+}
+
+.social a img {
+    background-color: white;
+    margin-left: 16px;
+}
+
+#click {
+    display: none;
+}
+
+.menu i {
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 400px) {
+    
+    .menu{
+        display: list-item;
+    }
+
+
+   nav {
+    left: 0;
+    top: 0;
+    position: fixed;
+    background-color: white;
+    height: 100vh;
+    width: 70%;
+    z-index: 999;
+    text-transform: uppercase;
+    transform: translateX(-100%);
+    transition: transform .5s ease-in-out;
+    text-decoration: none;
+   }
+   
+    nav ul {
+        margin-top: 4em;
+        background-color: white; 
+    }
+    #click:checked ~ .nav_Link {
+        transform: translateX(0%);
+    }
+        
+    nav ul li {
+        background-color: white;
+        align-items: center;
+        
+    }
+    nav ul li a {
+        font: 16px;
+        background-color: none;
+        float: right;
+        top: 80px;
+        left: 40px;
+        margin-left: 40px;
+        padding: 20px;
+        justify-content:space-around;
+        align-items: center;
+        background-color: white;
+        color: black;
+
+    }
+    
+    .Content {
+        transform: translateY(10%);
+    }
+    .cta {
+        display: none;
+    }
+    .Content {
+        margin: 0;
+        padding: 0;
+    }
+    .Content h1 {
+    text-align: center;
+    font-size: 36px;
+    color: white;
+    margin: 20px;  
+  
+    }
+    .btn {
+        display: flex;
+        flex-direction: column;
+        padding: 24px
+    }
+    .button1 {
+        margin: 24px;
+    }
+    .play {
+        margin:0;
+    }
+    .creative1 {
+        width: 80%;
+        border-radius: 5px;
+    }
+    .creative2 {
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        margin-left: 40px;
+    }
+    .creative3 {
+        display: none;
+    }
+    .creative4 {
+        display: none;
+    }
+    .creative5 {
+        width: 80%;
+        border-radius: 5px;
+        margin-left: 40px
+    }
+    .services {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    .product {
+        padding-bottom:20px;
+    }
+    .aboutus {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: center;
+        padding-left: 190px;
+    }
+
+    .about {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .aboutus span {
+        margin: none;
+        font-size: 16px;
+        height: 100px;
+        width: 400px;;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 300px;
+    }
+    .copyright {
+        display: flex;
+        padding-left: 20px;
+        padding-right:20px;
+    }
+    .copyright h1 {
+        font-size: 12px;
+        display: contents;
+    }
+}
+
