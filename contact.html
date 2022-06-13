@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="contact.css">
+    <script src="https://kit.fontawesome.com/4d6ed4934d.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+</head>
+<body>
+
+    <nav>
+        <img class="logo" src="img/logo.svg" alt="logo">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Service</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>  
+        <a class="cta" href="contact-2.html"><button>Contact us</button></a>
+        <div class="checked">
+         <input type="checkbox" id="click">
+        <label for="click" class="menu">
+        <i class="fas fa-bars"></i>
+        </label>
+       </div>   
+    </nav>
+
+    <div class="contact-form">
+        <span>Hey! Tell Us Your Idea
+            We Will Make It True</span>
+            <form>
+                <div class="input-holder">
+                    <input type="text" placeholder="Your Name" id="name" onkeyup="validateName()">
+                    <span id="name-error"></span>
+                </div>
+                <div class="input-holder">
+                    <input type="text" placeholder="Your Email" id="email" onkeyup="validatePhone()">
+                    <span id="email-error"></span>
+                </div>
+                <div class="input-holder">
+                    <input type="text"  placeholder="Phone no." id="phone" onkeyup="validatePhone()">
+                    <span id="phone-error"></span>
+                </div>
+                <div class="input-holder">
+                    <textarea  rows="4" placeholder="Your Reqirement" id="requirement"></textarea>
+                    <span id="requirement-error"></span>
+                </div>
+               
+                <a class="cta" href="#"><button>Submit</button></a>
+                <span id="submit-error"></span>
+             </form>
+    </div>
+    <script src="validation.js"></script>
+    
+</body>
+</html>

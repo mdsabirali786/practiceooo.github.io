@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="contact-2.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact-2</title>
+</head>
+<body>
+
+  <nav>
+    <img class="logo" src="img/logo.svg" alt="logo">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Service</a></li>
+        <li><a href="#">Work</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>  
+    <a class="cta" href="contact-2.html"><button>Contact us</button></a>
+    <div class="checked">
+     <input type="checkbox" id="click">
+    <label for="click" class="menu">
+    <i class="fas fa-bars"></i>
+    </label>
+   </div>   
+</nav>
+
+  <div class="header">
+    <span>Hey! Tell Us Your Idea
+        We Will Make It True</span>
+</div>
+    <div class="container">
+      <form onsubmit="sendEmail(); reset(); return false;">
+        <div class="input-group">
+          <input type="text" placeholder="Enter your name" id="name" onkeyup="validateName()">
+          <span id="name-error"></span>
+        </div>
+  
+        <div class="input-group">
+          <input type="tel" placeholder="123 456 7890"id="phone" onkeyup="validatePhone()">
+          <span id="phone-error"></span>
+        </div>
+  
+        <div class="input-group">
+          <input type="email" placeholder="Enter Email" id="email" onkeyup="validateEmail()">
+          <span id="email-error"></span>
+        </div>   
+  
+        <div class="input-group">
+          <textarea rows="5" placeholder="Enter your message" id="message" onkeyup="validateMessage()"></textarea>
+          <span id="message-error"></span>
+        </div>
+  
+       
+  
+      <button onclick="return validateForm()">Send</button>
+      <span id="submit-error"></span>
+      </form>  
+    </div>
+    <script src="contact-2.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail() {
+            Email.send({
+    Host : "smtp.elasticemail.com",
+    Username : "md26sabir.ali@gmail.com",
+    Password : "BBD2A78429A1B205D0EC88566122DEB00C0A",
+    To : 'md26sabir.ali@gmail.com',
+    From : document.getElementById("email").value,
+    Subject : "New Contact for Enquery",
+    Body : "Name:" + document.getElementById("name").value
+            +"<br> Email: " + document.getElementById("email").value
+            +"<br> Phone no:" + document.getElementById("phone").value
+            +"<br> Message: " + document.getElementById("message").value
+}).then(
+  message => alert(message)
+);
+
+        }
+    </script>
+
+<div class="footer">
+  <div class="copyright">
+      <a href="#"><img src="img/Copyright.svg" alt="copyright"></a>
+      <h1>2022. All Copyright reserve .Studio Digital Pvt. Ltd.</h1>
+  </div>
+  <div class="email">
+      <a href="mailto:md26sabir.ali@gmail.com"><img src="img/sms.svg" alt="behance"></a>
+      <a href="mailto:md26sabir.ali@gmail.com">enquiry@dotstudio.com</a>
+  </div>
+<div class="social">
+  <a href="https://dribbble.com/Md_Sabir"><img src="img/behance.svg" alt="behance"></a>
+  <a href="https://dribbble.com/Md_Sabir"><img src="img/Line 1.svg" alt="behance"></a>
+  <a href="https://dribbble.com/Md_Sabir"><img src="img/dribbble.svg" alt="dribbble"></a>
+  <a href="https://dribbble.com/Md_Sabir"><img src="img/Line 1.svg" alt="behance"></a>
+  <a href="https://dribbble.com/Md_Sabir"><img src="img/instagram.svg" alt="instagram"></a>
+  <a href="https://dribbble.com/Md_Sabir"><img src="img/Line 1.svg" alt="behance"></a>
+  <a href="https://dribbble.com/Md_Sabir"><img src="img/linkedin-in.svg" alt="instagram"></a>
+</div>
+</div>
+
+</body>
+</html>

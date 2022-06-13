@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;
+    background-color:#141414;
+}
+nav {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    cursor: pointer;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+nav ul li {
+    display: inline-flex;
+    padding: 40px;
+}
+nav ul li a {
+   text-decoration: none;
+   font-size: 16px; 
+   color: #ffffff;
+}
+
+nav .cta button {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+color: white;
+width: 175px;
+height: 65px;
+border: 1px solid #FFFFFF;
+border-radius: 50px;
+}
+
+.checked {
+    float: right;
+    display: none;
+}
+
+.hero-section {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 110px;
+}
+
+.hero-section span {
+    font-size:64px;
+    font-weight:700;
+    color: white;
+    width: 750px;
+    text-align: center;
+}
+
+.hero-section p {
+    font-size: 24px;
+    color: white;
+    margin-top: 36px;
+    line-height: 140%;
+    text-align: center;
+    width: 550px;
+
+}
+
+.hero-section a button {
+text-decoration: none;
+font-size: 16px;
+font-weight: 500;
+color: black;
+width: 175px;
+height: 65px;
+background: #FFFFFF;
+border: 1px solid #FFFFFF;
+border-radius: 50px;
+margin-top: 36px;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 250px;
+    gap: 80px;
+}
+
+.services .head h1 {
+    font-size: 48px;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+.content .dev {
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    height: 180px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content .code {
+    width: 72px;
+}
+
+.content span {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.content p {
+    font-size: 16px; 
+    font-weight: 300;
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.tech-stack {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    gap: 80px;
+}
+
+.tech-stack .head  {
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.tech-stack h1 {
+    font-size: 48px;
+}
+
+.tech-stack .content {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 79px;
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    height: 152px;
+    margin-top: 72px;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+}
+
+.copyright h1 {
+    color: black;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.copyright a {
+    background-color: white;
+}
+
+.copyright a img {
+    background-color: white;
+    margin-right:16px;
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    border: 2px;
+    border-color: black;
+    background-color: white;
+    
+}
+.email a {
+    background-color: white;
+    color: black;
+    margin-left: 16px;
+}
+
+.email img {
+    background-color: white;
+    justify-content: space-around;
+}
+
+.social {
+    background-color: white;
+    justify-content: space-around;
+}
+
+.social a {
+    background: none;
+}
+
+.social a img {
+    background-color: white;
+    margin-left: 16px;
+}
+
+#click {
+    display: none;
+}
+
+.menu i {
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}

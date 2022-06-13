@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;
+    background-color:#141414;
+}
+nav {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    cursor: pointer;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+nav ul li {
+    display: inline-flex;
+    padding: 40px;
+}
+nav ul li a {
+   text-decoration: none;
+   font-size: 16px; 
+   color: #ffffff;
+}
+
+nav .cta button {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+color: white;
+width: 175px;
+height: 65px;
+border: 1px solid #FFFFFF;
+border-radius: 50px;
+}
+
+.checked {
+    float: right;
+    display: none;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-form span {
+width: 650px;
+height: 110px;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 300;
+font-size: 48px;
+line-height: 55px;
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #FFFFFF;
+
+margin-top: 120px;
+
+}
+
+.contact-form form {
+    margin-top: 40px;
+}
+
+.contact-form form input {
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+
+width: 505px;
+height: 48px;
+color: white;
+font-size: 16px;
+letter-spacing: 0.1rem;
+
+border: 1px solid #FFFFFF;
+margin-left: 24px;
+}
+
+
+
+.contact-form textarea {
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+width: 505px;
+height: 200px;
+margin-left: 24px;
+color: white;
+font-size: 16px;
+letter-spacing: 0.1em;
+
+}
+
+.contact-form a {
+   text-decoration: none;
+   font-size: 16px; 
+   color: black
+}
+
+.contact-form .cta button {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+background-color: white;
+width: 505px;
+height: 65px;
+border: 1px solid #FFFFFF;
+margin: 24px;
+font-size: 18px;
+font-weight: 600;
+}
+
+.input-holder span {
+    font-size: 16px;
+    color: white;
+    align-items: right;
+    color: red;
+    margin-left: 24px;
+}
+
+.input-holder span i {
+    color: seagreen;
+}

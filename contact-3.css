@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy', sans-serif;
+    background-color: #141414;
+}
+
+nav {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    cursor: pointer;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+nav ul li {
+    display: inline-flex;
+    padding: 40px;
+}
+nav ul li a {
+   text-decoration: none;
+   font-size: 16px; 
+   color: #ffffff;
+}
+
+nav .cta button {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+color: white;
+width: 175px;
+height: 65px;
+border: 1px solid #FFFFFF;
+border-radius: 50px;
+}
+
+.checked {
+    float: right;
+    display: none;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.header span {
+        width: 650px;
+        height: 110px;
+        
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 48px;
+        line-height: 55px;
+        text-align: center;
+        letter-spacing: 0.1em;
+        
+        color: #FFFFFF;
+        
+        margin-top: 120px;
+}
+.container{
+    width: 100%;
+    height: 75vh;
+    background: #141414;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.container form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.input-group{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+    position: relative;
+    color: white;
+}
+
+.input-group input{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+
+width: 505px;
+height: 48px;
+color: white;
+font-size: 16px;
+letter-spacing: 0.1rem;
+
+border: 1px solid #FFFFFF;
+margin-left: 24px;
+
+}
+.input-group textarea{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+    width: 505px;
+    height: 200px;
+    margin-left: 24px;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+}
+::placeholder{
+    font-size: 14px;
+}
+
+form button{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+color: #141414;
+width: 175px;
+height: 65px;
+border: 1px solid #FFFFFF;
+background-color: white;
+margin-left: 24px;
+}
+
+.input-group span {
+    position: absolute;
+    bottom: 12px;
+    right: 17px;
+    font-size: 14px;
+    color: red;
+}
+
+#submit-error {
+    color: red;
+}
+
+.input-group span i {
+    color: seagreen;
+}
+
+button {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    height: 152px;
+    margin-top: 72px;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+}
+
+.copyright h1 {
+    color: black;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.copyright a {
+    background-color: white;
+}
+
+.copyright a img {
+    background-color: white;
+    margin-right:16px;
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    border: 2px;
+    border-color: black;
+    background-color: white;
+    
+}
+.email a {
+    background-color: white;
+    color: black;
+    margin-left: 16px;
+}
+
+.email img {
+    background-color: white;
+    justify-content: space-around;
+}
+
+.social {
+    background-color: white;
+    justify-content: space-around;
+}
+
+.social a {
+    background: none;
+}
+
+.social a img {
+    background-color: white;
+    margin-left: 16px;
+}
+
+#click {
+    display: none;
+}
+
+.menu i {
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
